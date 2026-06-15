@@ -1,20 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="js/script.js"></script>
-</head>
-<body>
-    <h1> Produtos</h1>
-    <div class="container">
-        <div class="produtos">
-            <img src="img/sccpaway.jpeg">
-            <span>Camiseta Corinthians Away</span>
-        </div>
-        
-    </div>        
-    </body>
-</html>
+* {
+    box-sizing: border-box;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+    border: solid 10px rgba(0,0,0.9);
+    margin: 10% auto;
+    padding: 70px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.entrar{
+    width:50px;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+}
+.produtos img{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
+.produtos img:hover{
+    transform: scale(1.2);
+}
+.tituloProd{
+    font-weight: bold;
+    font-family: Calibri;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+}
+.textoProd{
+    font-family: Calibri;
+    color:#4f4f4f;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+}
+.btnSoma{
+    display: flex;
+    justify-content:center;
+}
+.btnsubtrai{
+    display: flex;
+    justify-content:center; 
+}
